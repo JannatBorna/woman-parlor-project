@@ -1,0 +1,1577 @@
+/* =======desktop view======== */
+@media (min-width: 2561px) {
+}
+
+/* =======desktop view======== */
+@media (min-width: 1440px) {
+  /* common style  start*/
+  h1 {
+    font-size: 40px;
+    font-family: fantasy;
+  }
+
+  h2 {
+    font-size: 30px;
+    font-family: sans-serif;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 19px;
+  }
+
+  p {
+    font-size: 18px;
+    color: #413f3f;
+  }
+  .background-image {
+    width: 100%;
+  }
+  /* common style  ends*/
+
+  /*blogs section  start here */
+  .blog-image img {
+    width: 100%;
+  }
+  /* blogs section  ends here */
+
+  /* Reviews section start hare*/
+  /* .review {
+    margin-left: 50px;
+    width: 60vh;
+    height: 60vh;
+  } */
+  .review h5 {
+    margin-top: 40px;
+  }
+  .review-image-div {
+    margin-left: -20px;
+    width: 49vh;
+    height: 66vh;
+  }
+  .owner-review-div {
+    margin-top: 40px;
+  }
+
+  .review-image-2 img {
+    width: 53vh;
+    margin-left: 10px;
+  }
+
+  .testim .cont div h2 {
+    font-size: 16px;
+  }
+
+  .testim .cont div p {
+    font-size: 10px;
+  }
+
+  /* Reviews section ends hare*/
+  /* contact section start here */
+  .contact {
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 1.5em;
+  }
+
+  .contact-div {
+    width: 36vh;
+    height: 36vh;
+  }
+
+  /* contact section ends here */
+}
+
+/* =======tablets and ipads view======== */
+@media (max-width: 1025px) {
+  /* common style  start*/
+  h1 {
+    font-size: 24px;
+    font-family: fantasy;
+  }
+
+  h2 {
+    font-size: 23px;
+    font-family: sans-serif;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+
+  h6 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 13px;
+    color: #413f3f;
+  }
+
+  .background-image {
+    width: 100%;
+  }
+  /* common style  ends*/
+
+  /* services section start here */
+  .services-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .all-div img {
+    width: 13vh;
+    height: 13vh;
+  }
+
+  .line {
+    font-size: 25px;
+  }
+
+  .hair-div-2 {
+    margin-left: 190px;
+  }
+  /* services section ends here */
+
+  /*blogs section  start here */
+  .blogs-grid {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 7px;
+  }
+
+  .blog-image img {
+    width: 76vh;
+    height: 40vh;
+  }
+  /* blogs section  ends here */
+
+  /* single blogs section start here */
+  .single-image-1 img {
+    width: 80%;
+  }
+
+  .single-blog-2 {
+    padding: 0.5em;
+    margin-left: -60px;
+    width: 100%;
+    height: 70vh;
+  }
+
+  /* .responsive {
+    margin-top: 500px;
+    width: 85%;
+  } */
+
+  /* .single-blog-icon {
+    margin-left: 20px;
+  } */
+
+  /* .single-icon {
+    font-size: 20px;
+  } */
+
+  /* .blog-contact-input {
+    padding: 0.5em;
+    margin-left: 10px;
+  }
+
+  .single-image-3 {
+    margin-left: 300px;
+    margin-top: -50px;
+  } */
+
+  /* single blogs section ends here */
+
+  /*single service  section start here */
+  .single-service-2 {
+    margin-left: 20px;
+  }
+
+  .line {
+    font-size: 14px;
+  }
+
+  /*single services section ends here */
+
+  /* Reviews section start hare*/
+  .review {
+    margin-left: 330px;
+    width: 40vh;
+    height: 40vh;
+  }
+  .review h5 {
+    margin-top: 40px;
+  }
+  .review-image-div {
+    margin-left: -20px;
+    width: 49vh;
+    height: 66vh;
+  }
+  .owner-review-div {
+    margin-top: 40px;
+  }
+
+  .review-image-2 img {
+    width: 53vh;
+    margin-left: 10px;
+  }
+
+  .testim .cont div h2 {
+    font-size: 16px;
+  }
+
+  .testim .cont div p {
+    font-size: 10px;
+  }
+
+  /* Reviews section ends hare*/
+  /* contact section start here */
+  .contact {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 140px;
+  }
+
+  .contact-div {
+    width: 40vh;
+    height: 35vh;
+  }
+  .contact-gap-1 {
+    margin-left: -40px;
+  }
+
+  input {
+    width: 32vh;
+    margin-top: 30px;
+  }
+  textarea {
+    width: 50vh;
+    margin-top: 30px;
+  }
+
+  form {
+    display: grid;
+    grid-template-columns: 20px auto auto;
+  }
+
+  .contact-gap-2 {
+    margin-left: 50px;
+  }
+  /* contact section ends here */
+}
+
+/* =======Mobile phones view======== */
+@media (max-width: 769px) {
+  /* common style  start*/
+  h1 {
+    font-size: 24px;
+    font-family: fantasy;
+  }
+
+  h2 {
+    font-size: 23px;
+    font-family: sans-serif;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+
+  h6 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 13px;
+    color: #413f3f;
+  }
+  .background-image {
+    width: 100%;
+  }
+  /* common style  ends*/
+
+  /* header start here */
+  .drop-btn {
+    font-size: 10px;
+  }
+
+  .website-name {
+    font-size: 15px;
+  }
+
+  .testim .arrow {
+    font-size: 1.5em;
+  }
+
+  .testim .cont div p {
+    line-height: 25px;
+  }
+  /* header ends here */
+
+  /*  about section start here */
+  .about-1 {
+    padding: 0.2em;
+    margin: 0.2em;
+  }
+
+  .about-1 h2 {
+    font-size: 20px;
+  }
+
+  .about-img-1 {
+    margin-left: -40px;
+  }
+
+  .about-img-1 img {
+    width: 115%;
+  }
+
+  .about-img-2 {
+    margin-top: -220px;
+    margin-left: 150px;
+  }
+
+  .about-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .about-img-3 {
+    margin-top: -110px;
+  }
+
+  .about-img-3 img {
+    width: 100%;
+  }
+
+  .about-div-2 {
+    margin-top: -173px;
+    height: 110%;
+  }
+
+  .about-div-2 h1 {
+    font-size: 95px;
+    transform: rotate(20deg);
+  }
+
+  .a-div-2 {
+    margin-left: 10px;
+    margin-top: -140px;
+  }
+
+  .a-div-2 h6 {
+    font-size: 12px;
+  }
+
+  .a-div-2 h2 {
+    font-size: 14px;
+  }
+
+  .a-div-2 p {
+    font-size: 10px;
+  }
+
+  .a-div-2 a button {
+    width: 80%;
+  }
+
+  .about-3 {
+    margin-top: -135px;
+  }
+
+  .about-5 {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: -120px;
+  }
+
+  .about-6 {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: -40px;
+  }
+
+  .about-div-6 {
+    margin-left: -240px;
+  }
+  /*  about section ends here */
+
+  /* services section start here */
+  .services-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .all-div img {
+    width: 13vh;
+    height: 13vh;
+  }
+
+  .line {
+    font-size: 15px;
+  }
+
+  .hair-div-2 {
+    margin-left: 160px;
+  }
+  /* services section ends here */
+
+  /*single service  section start here */
+  .single-service-2 {
+    margin-left: 40px;
+    margin-top: -240px;
+  }
+
+  .line {
+    font-size: 25px;
+  }
+
+  .single-service-2 h6 {
+    font-size: 14px;
+  }
+
+  .single-service-3 {
+    margin-top: 20px;
+  }
+  .single-service-text h2 {
+    font-size: 18px;
+  }
+
+  .social-icon {
+    margin-top: 10px;
+  }
+
+  .social-icon a {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .single-service-icon {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .single-service-icon a img {
+    width: 40%;
+  }
+
+  .single-service-div-5 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /*single services section ends here */
+
+  /*blogs section  start here */
+  .blogs-grid {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 7px;
+  }
+
+  .blog-image img {
+    width: 57vh;
+    height: 40vh;
+  }
+  /* blogs section  ends here */
+
+  /* single blogs section start here */
+  .single-image-1 img {
+    width: 100%;
+  }
+
+  .single-blog-2 {
+    padding: 0.5em;
+    margin-left: 2px;
+    width: 100%;
+    height: 70vh;
+  }
+
+  .responsive {
+    margin-top: 500px;
+    width: 85%;
+  }
+
+  .single-blog-icon {
+    margin-left: 20px;
+  }
+
+  .single-icon {
+    font-size: 20px;
+  }
+
+  .blog-contact-input {
+    padding: 0.5em;
+    margin-left: 10px;
+  }
+
+  .single-image-3 {
+    margin-left: 300px;
+    margin-top: -50px;
+  }
+
+  /* single blogs section ends here */
+
+  /* Reviews section start hare*/
+  .review {
+    margin-left: 220px;
+    width: 40vh;
+    height: 40vh;
+  }
+  .review h5 {
+    margin-top: 40px;
+  }
+  .review-image-div {
+    margin-left: -20px;
+    width: 49vh;
+    height: 66vh;
+  }
+  .owner-review-div {
+    margin-top: 40px;
+  }
+
+  .review-image-2 img {
+    width: 53vh;
+    margin-left: 10px;
+  }
+
+  .testim .cont div h2 {
+    font-size: 16px;
+  }
+
+  .testim .cont div p {
+    font-size: 10px;
+  }
+
+  /* Reviews section ends hare*/
+
+  /* contact section start here */
+  .contact {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 70px;
+  }
+
+  .contact-div {
+    width: 40vh;
+    height: 35vh;
+  }
+  .contact-gap-1 {
+    margin-left: -40px;
+  }
+
+  input {
+    width: 27vh;
+    margin-top: 30px;
+  }
+  textarea {
+    width: 45vh;
+    margin-top: 30px;
+  }
+
+  form {
+    display: grid;
+    grid-template-columns: 20px auto auto;
+  }
+
+  .contact-gap-2 {
+    margin-left: 40px;
+  }
+  /* contact section ends here */
+
+  /* footer start here */
+  /* footer ends here */
+}
+
+/* ============= Small Screen Mobile view=========== */
+@media (max-width: 426px) {
+  /* common style */
+  h1 {
+    font-size: 24px;
+    font-family: fantasy;
+  }
+
+  h2 {
+    font-size: 23px;
+    font-family: sans-serif;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+
+  h6 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 13px;
+    color: #413f3f;
+  }
+
+  .background-image {
+    width: 100%;
+  }
+
+  /* header start here */
+  .drop-btn {
+    font-size: 14px;
+  }
+
+  .website-name {
+    font-size: 15px;
+  }
+
+  .testim .arrow {
+    font-size: 1.5em;
+  }
+
+  .testim .cont div p {
+    line-height: 25px;
+  }
+
+  /* header ends here */
+
+  /*  about section start here */
+  .about-1 {
+    padding: 0.2em;
+    margin: 0.2em;
+  }
+
+  .about-1 h2 {
+    font-size: 20px;
+  }
+
+  .about-img-1 {
+    margin-left: -40px;
+  }
+
+  .about-img-1 img {
+    width: 115%;
+  }
+
+  .about-img-2 {
+    margin-top: -220px;
+    margin-left: 150px;
+  }
+
+  .about-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .about-img-3 {
+    margin-top: -110px;
+  }
+
+  .about-img-3 img {
+    width: 100%;
+  }
+
+  .about-div-2 {
+    margin-top: -173px;
+    height: 110%;
+  }
+
+  .about-div-2 h1 {
+    font-size: 95px;
+    transform: rotate(20deg);
+  }
+
+  .a-div-2 {
+    margin-left: 10px;
+    margin-top: -140px;
+  }
+
+  .a-div-2 h6 {
+    font-size: 12px;
+  }
+
+  .a-div-2 h2 {
+    font-size: 14px;
+  }
+
+  .a-div-2 p {
+    font-size: 10px;
+  }
+
+  .a-div-2 a button {
+    width: 80%;
+  }
+
+  .about-3 {
+    margin-top: -135px;
+  }
+
+  .about-5 {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: -120px;
+  }
+
+  .about-6 {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: -40px;
+  }
+
+  .about-div-6 {
+    margin-left: -240px;
+  }
+  /*  about section ends here */
+
+  /* services section start here */
+  .services-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .all-div img {
+    width: 13vh;
+    height: 13vh;
+  }
+
+  .line {
+    font-size: 6px;
+  }
+
+  /* services section ends here */
+
+  /*single service  section start here */
+  .single-service-2 {
+    margin-left: 40px;
+    margin-top: -80px;
+  }
+
+  .single-service-2 h6 {
+    font-size: 14px;
+  }
+
+  .single-service-3 {
+    margin-top: 20px;
+  }
+  .single-service-text h2 {
+    font-size: 18px;
+  }
+
+  .social-icon {
+    margin-top: -40px;
+  }
+
+  .social-icon a {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .single-service-icon {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .single-service-icon a img {
+    width: 40%;
+  }
+
+  .single-service-div-5 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /*single services section ends here */
+
+  /*blogs section  start here */
+  .blogs-grid {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 7px;
+  }
+
+  .blog-image img {
+    width: 66vh;
+    height: 40vh;
+  }
+  /* blogs section  ends here */
+
+  /* single blogs section start here */
+  .single-image-1 img {
+    width: 100%;
+  }
+
+  .single-blog-2 {
+    padding: 0.5em;
+    margin-left: 20px;
+    width: 85%;
+    height: 100vh;
+  }
+
+  .responsive {
+    margin-top: 640px;
+    width: 85%;
+  }
+
+  .single-blog-icon {
+    margin-left: 20px;
+  }
+
+  .single-icon {
+    font-size: 20px;
+  }
+
+  .blog-contact-input {
+    padding: 0.5em;
+    margin-left: 10px;
+  }
+  /* single blogs section ends here */
+
+  /* Reviews section start hare*/
+  .review {
+    margin-left: 80px;
+    width: 40vh;
+    height: 40vh;
+  }
+  .review h5 {
+    margin-top: 40px;
+  }
+  .review-image-div {
+    margin-left: 20px;
+    width: 49vh;
+    height: 66vh;
+  }
+  .owner-review-div {
+    margin-top: 40px;
+  }
+
+  .review-image-2 img {
+    width: 62vh;
+    margin-left: 10px;
+  }
+
+  .testim .cont div h2 {
+    font-size: 16px;
+  }
+
+  .testim .cont div p {
+    font-size: 10px;
+  }
+
+  /* Reviews section ends hare*/
+
+  /* contact section start here */
+  .contact {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 70px;
+  }
+
+  .contact-div {
+    width: 40vh;
+    height: 35vh;
+  }
+  .contact-gap-1 {
+    margin-left: -40px;
+  }
+
+  input {
+    width: 27vh;
+    margin-top: 30px;
+  }
+  textarea {
+    width: 45vh;
+    margin-top: 30px;
+  }
+
+  form {
+    display: grid;
+    grid-template-columns: 20px auto auto;
+  }
+
+  .contact-gap-2 {
+    margin-left: -10px;
+    margin-top: 30px;
+  }
+  /* contact section ends here */
+
+  /* footer start here */
+  /* footer ends here */
+}
+
+/* ============= Small Screen Mobile view=========== */
+@media (max-width: 376px) {
+  /* common style */
+  h1 {
+    font-size: 24px;
+    font-family: fantasy;
+  }
+
+  h2 {
+    font-size: 23px;
+    font-family: sans-serif;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+
+  h6 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 13px;
+    color: #413f3f;
+  }
+
+  .background-image {
+    width: 100%;
+  }
+
+  /* header start here */
+  .drop-btn {
+    font-size: 11px;
+  }
+
+  .website-name {
+    font-size: 13px;
+  }
+
+  /* header ends here */
+
+  /*  about section start here */
+  .about-1 {
+    padding: 0.2em;
+    margin: 0.2em;
+  }
+
+  .about-1 h2 {
+    font-size: 20px;
+  }
+
+  .about-img-1 {
+    margin-left: -40px;
+  }
+
+  .about-img-1 img {
+    width: 85%;
+  }
+
+  .about-img-2 {
+    margin-top: -200px;
+    margin-left: 27px;
+  }
+
+  .about-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .about-img-3 {
+    margin-top: -160px;
+  }
+
+  .about-img-3 img {
+    width: 77%;
+  }
+
+  .about-div-2 {
+    margin-top: -173px;
+    height: 110%;
+  }
+
+  .about-div-2 h1 {
+    font-size: 95px;
+    transform: rotate(20deg);
+  }
+
+  .a-div-2 {
+    margin-left: -70px;
+    margin-top: -140px;
+  }
+
+  .a-div-2 h6 {
+    font-size: 12px;
+  }
+
+  .a-div-2 h2 {
+    font-size: 14px;
+  }
+
+  .a-div-2 p {
+    font-size: 10px;
+  }
+
+  .a-div-2 a button {
+    width: 80%;
+  }
+
+  .about-3 {
+    margin-top: -135px;
+  }
+
+  .about-5 {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: -120px;
+  }
+
+  .about-6 {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: -40px;
+  }
+
+  .about-div-6 {
+    margin-left: -240px;
+  }
+  /*  about section ends here */
+
+  /* services section start here */
+  .services-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .all-div img {
+    width: 13vh;
+    height: 13vh;
+  }
+
+  .line {
+    font-size: 1px;
+  }
+
+  /* services section ends here */
+
+  /*single service  section start here */
+  .single-service-2 {
+    margin-left: 40px;
+    margin-top: -80px;
+  }
+
+  .single-service-2 h6 {
+    font-size: 14px;
+  }
+
+  .single-service-3 {
+    margin-top: 20px;
+  }
+  .single-service-text h2 {
+    font-size: 18px;
+  }
+
+  .social-icon {
+    margin-top: -40px;
+  }
+
+  .social-icon a {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .single-service-icon {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .single-service-icon a img {
+    width: 40%;
+  }
+
+  .single-service-div-5 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /*single services section ends here */
+
+  /*blogs section  start here */
+  .blogs-grid {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 7px;
+  }
+
+  .blog-image img {
+    width: 57vh;
+    height: 40vh;
+  }
+  /* blogs section  ends here */
+
+  /* single blogs section start here */
+  .single-image-1 img {
+    width: 100%;
+  }
+
+  .single-blog-2 {
+    padding: 0.5em;
+    margin-left: 20px;
+    width: 85%;
+    height: 100vh;
+  }
+
+  .responsive {
+    margin-top: 640px;
+    width: 85%;
+  }
+
+  .single-blog-icon {
+    margin-left: 20px;
+  }
+
+  .single-icon {
+    font-size: 20px;
+  }
+
+  .blog-contact-input {
+    padding: 0.5em;
+    margin-left: 10px;
+  }
+  /* single blogs section ends here */
+
+  /* Reviews section start hare*/
+  .review {
+    margin-left: 60px;
+    width: 40vh;
+    height: 40vh;
+  }
+  .review h5 {
+    margin-top: 40px;
+  }
+  .review-image-div {
+    margin-left: 5px;
+    width: 49vh;
+    height: 66vh;
+  }
+  .owner-review-div {
+    margin-top: 40px;
+  }
+
+  .review-image-2 img {
+    width: 53vh;
+    margin-left: 10px;
+  }
+
+  .testim .cont div h2 {
+    font-size: 16px;
+  }
+
+  .testim .cont div p {
+    font-size: 10px;
+  }
+
+  /* Reviews section ends hare*/
+
+  /* contact section start here */
+  .contact {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 20px;
+  }
+
+  .contact-div {
+    width: 40vh;
+    height: 35vh;
+  }
+  .contact-gap-1 {
+    margin-left: -40px;
+  }
+
+  input {
+    width: 19vh;
+    margin-top: 30px;
+  }
+  textarea {
+    width: 32vh;
+    margin-top: 30px;
+  }
+
+  form {
+    display: grid;
+    grid-template-columns: 20px auto auto;
+  }
+
+  .contact-gap-2 {
+    margin-left: -10px;
+    margin-top: 30px;
+  }
+  /* contact section ends here */
+
+  /* footer start here */
+  /* footer ends here */
+}
+
+/* ============= Small Screen Mobile view=========== */
+@media (max-width: 325px) {
+  /* common section  style */
+  h1 {
+    font-size: 24px;
+    font-family: fantasy;
+  }
+
+  h2 {
+    font-size: 23px;
+    font-family: sans-serif;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+
+  h6 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 13px;
+    color: #413f3f;
+  }
+
+  .section-gap {
+    margin-top: 140px;
+  }
+
+  .background-image {
+    width: 100%;
+  }
+
+  .headline {
+    font-size: 25px;
+  }
+
+  /* header section  start here */
+  #slide-container {
+    height: 200vh;
+  }
+  .drop-btn {
+    font-size: 9px;
+  }
+
+  .website-name {
+    font-size: 10px;
+  }
+
+  .content-headline {
+    font-size: 20px;
+  }
+
+  .content-text {
+    font-size: 10px;
+  }
+
+  .hero-content-2 {
+    margin-top: 20px;
+    margin-left: -300px;
+  }
+
+  .hero-content-3 {
+    margin-top: 300px;
+    margin-left: 2100px;
+  }
+
+  .hero-content-4 {
+    margin-top: 300px;
+    margin-left: 3100px;
+  }
+
+  /* header section  ends here */
+
+  /*  about section start here */
+  .about-1 {
+    padding: 0.2em;
+    margin: 0.2em;
+  }
+
+  .about-1 h2 {
+    font-size: 20px;
+  }
+
+  .about-img-1 {
+    margin-left: -40px;
+  }
+
+  .about-img-1 img {
+    width: 85%;
+  }
+
+  .about-img-2 {
+    margin-top: -200px;
+    margin-left: 27px;
+  }
+
+  .about-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .about-img-3 {
+    margin-top: -160px;
+  }
+
+  .about-img-3 img {
+    width: 77%;
+  }
+
+  .about-div-2 {
+    margin-top: -173px;
+    height: 110%;
+  }
+
+  .about-div-2 h1 {
+    font-size: 95px;
+    transform: rotate(20deg);
+  }
+
+  .a-div-2 {
+    margin-left: -70px;
+    margin-top: -140px;
+  }
+
+  .a-div-2 h6 {
+    font-size: 12px;
+  }
+
+  .a-div-2 h2 {
+    font-size: 14px;
+  }
+
+  .a-div-2 p {
+    font-size: 10px;
+  }
+
+  .a-div-2 a button {
+    width: 80%;
+  }
+
+  .about-3 {
+    margin-top: -135px;
+  }
+
+  .about-5 {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: -140px;
+  }
+
+  .about-6 {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: -80px;
+  }
+
+  .about-div-6 {
+    margin-left: -240px;
+  }
+  /*  about section ends here */
+
+  /* services section start here */
+  .services-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .all-div img {
+    width: 13vh;
+    height: 13vh;
+  }
+
+  .line {
+    font-size: 1px;
+  }
+
+  /* services section ends here */
+
+  /*single service  section start here */
+  .single-service-2 {
+    margin-left: 40px;
+    margin-top: -80px;
+  }
+
+  .single-service-2 h6 {
+    font-size: 14px;
+  }
+
+  .single-service-3 {
+    margin-top: 20px;
+  }
+  .single-service-text h2 {
+    font-size: 18px;
+  }
+
+  .social-icon {
+    margin-top: -40px;
+  }
+
+  .social-icon a {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .single-service-icon {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .single-service-icon a img {
+    width: 40%;
+  }
+
+  .single-service-div-5 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /*single services section ends here */
+
+  /*blogs section  start here */
+  .blogs-grid {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 10px;
+  }
+
+  .blog-image img {
+    width: 47vh;
+    height: 40vh;
+  }
+  /* blogs section  ends here */
+
+  /* single blogs section start here */
+  .single-image-1 img {
+    width: 100%;
+  }
+
+  .single-blog-2 {
+    padding: 0.5em;
+    margin-left: 20px;
+    width: 94%;
+    height: 100vh;
+  }
+
+  .responsive {
+    margin-top: 640px;
+  }
+
+  .single-blog-icon {
+    margin-left: 20px;
+  }
+
+  .single-icon {
+    font-size: 20px;
+  }
+
+  .blog-contact-input {
+    padding: 0.5em;
+    margin-left: 10px;
+  }
+  /* single blogs section ends here */
+
+  /* Reviews section start hare*/
+  .review {
+    margin-left: 50px;
+    width: 40vh;
+    height: 40vh;
+  }
+  .review h5 {
+    margin-top: 40px;
+  }
+  .review-image-div {
+    margin-left: -20px;
+    width: 49vh;
+    height: 66vh;
+  }
+  .owner-review-div {
+    margin-top: 40px;
+  }
+
+  .review-image-2 img {
+    width: 53vh;
+    margin-left: 10px;
+  }
+
+  .testim .cont div h2 {
+    font-size: 16px;
+  }
+
+  .testim .cont div p {
+    font-size: 10px;
+  }
+
+  /* Reviews section ends hare*/
+
+  /* contact section start here */
+  .contact {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 20px;
+  }
+
+  .contact-div {
+    width: 40vh;
+    height: 35vh;
+  }
+  .contact-gap-1 {
+    margin-left: -40px;
+  }
+
+  input {
+    width: 19vh;
+    margin-top: 30px;
+  }
+  textarea {
+    width: 32vh;
+    margin-top: 30px;
+  }
+
+  form {
+    display: grid;
+    grid-template-columns: 20px auto auto;
+  }
+
+  .contact-gap-2 {
+    margin-left: -10px;
+    margin-top: 30px;
+  }
+  /* contact section ends here */
+
+  /* footer start here */
+  .footer-div h5 {
+    font-size: 14px;
+  }
+
+  .footer-div ul li a {
+    font-size: 10px;
+  }
+
+  .footer-div p {
+    font-size: 10px;
+  }
+
+  .sub-footer p {
+    font-size: 7px;
+  }
+  /* footer ends here */
+}
